@@ -20,7 +20,8 @@ const blockIdInput = document.getElementById("block_id");
       });
 
       const selectedBlock = document.getElementById(blockId);
-      if (selectedBlock) {
+     // reference variable for changes
+	  if (selectedBlock) {
           selectedBlock.style.backgroundColor =  color;
       } else {
           alert("Block ID not found!");
